@@ -1,0 +1,48 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    /*box-shadow: 0 5px 10px 0px rgba(0,0,0,.5);
+    background: rgba(255, 255, 255, 0.247);*/
+
+    .name{
+        font-size: 1.4rem;
+        letter-spacing: 0.1em;
+        position: relative;
+        z-index: 1000;
+    }
+
+    a{
+        color: #fff;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+
+    .wrap{
+        display: flex;
+        position: relative;
+    }
+
+    .icons{
+        display: flex;
+        transition: 0.3s;
+
+        :hover{
+            opacity: 70%;
+        }
+        
+        a{
+            display: block;
+            margin-right: 3.2rem;
+            letter-spacing: 0.1em;
+            font-size: 1.4rem;
+            color: rgb(255, 255, 255);
+        }
+    }
+}

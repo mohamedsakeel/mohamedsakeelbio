@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="res/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Mohamed Sakeel</title>
+  </head>
+  <body>
+    <header data-aos="fade-down">
+      <a class="name" href="./">Mohamed Sakeel</a>
+      <div class="wrap">
+        <div class="icons">
+          <a href=""><i class="f fab fa-facebook-f"></i></a>
+          <a href=""><i class="t fab fa-twitter"></i></a>
+          <a href=""><i class="g fab fa-github"></i></a>
+          <a href="" class="btn">Projects</a>
+        </div>
+      </div>
+    </header>
+    <section
+      data-aos="fade-right"
+      data-aos-delay="150"
+      data-aos-duration="700"
+      class="mytitle"
+    >
+      <div class="title">
+        <h1>Mohamed<br />Sakeel</h1>
+        <div
+          class="line"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-duration="900"
+        >
+          <span class="line1"></span>
+          <span class="line2"></span>
+        </div>
+        <div>
+          <p>
+            Web Design & Development | Graphic Design | Software Development
+          </p>
+        </div>
+      </div>
+    </section>
+    <div id="bg">
+        <img class="bgfix" src="./res/images/parallax/bg.svg" alt="">
+      <div class="container" data-aos="fade-left" data-aos-delay="300" data-aos-duration="900">
+        <ul id="scene">
+          <li class="layer" id="star" data-depth="0.1"><img src="./res/images/parallax/stars.svg" alt=""/></li>
+          <li class="layer" id="cl1" data-depth="0.2"><img src="./res/images/parallaxx/whitecloud1.svg" alt="" width="500px"/></li>
+          <li class="layer" id="cl2" data-depth="0.2"><img src="./res/images/parallaxx/whitecloud2.svg" alt="" width="600px"/></li>
+          <li class="layer" id="halo" data-depth="0.3"><img src=".//res/images/parallaxx/moonlight.svg" alt="" width="1000px"/></li>
+          <li class="layer" id="moon" data-depth="0.3"><img src="./res/images/parallaxx/moon.svg" alt="" width="450px"/></li>
+          <li class="layer" id="dcl1" data-depth="0.4"><img src="./res/images/parallaxx/darkcloud1.svg" alt="" width="500px"/></li>
+          <li class="layer" id="dcl2" data-depth="0.5"><img src="./res/images/parallaxx/darkcloud2.svg" alt="" width="550px"/></li>
+          <li class="layer" id="dcl3" data-depth="0.6"><img src="./res/images/parallaxx/darkcloud3.svg" alt="" width="500px"/></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="aboutme">
+        <h2>Hi This sample</h2>
+    </section>
+
+    <script>
+      var scene = document.getElementById("scene");
+      var parallaxInstance = new Parallax(scene);
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
